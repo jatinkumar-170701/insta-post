@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Post</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Social Media Post</h1>
+        <div class="create-post">
+            <div class="headi-h2">
+
+                <h2>Create a Post</h2>
+            </div>
+            <div class="form-cl">
+
+                <form class="submission-form" onsubmit="socialPost(event)">
+                    <div class="inp-lab">
+                        <label for="name">Post Link</label>
+                        <input type="text" name="post" required />
+                    </div>
+                    <div class="inp-lab">
+
+                        <label for="email">Post Description</label>
+                        <input type="text" name="description" />
+                    </div>
+                    <div class="inp-lab">
+
+                        <button class="btn">Create Post</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="fetch-post">
+            <div class="headi-h2">
+
+                <h2>GET POST</h2>
+            </div>
+
+            <div id="parent-el">
+                <!-- 
+            <ul id="parent">
+
+
+            </ul> -->
+                <div id="comment-1">
+
+                    <!-- <ul id="comment">
+
+                    </ul> -->
+                </div>
+                <div id="show-comment-1">
+
+                </div>
+                <!-- <ul id="show-comment">
+
+                </ul> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

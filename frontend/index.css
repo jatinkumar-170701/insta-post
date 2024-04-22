@@ -1,0 +1,114 @@
+.container {
+    background-color: rgb(26, 98, 98, 0.2);
+    width: 80%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0px auto;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.create-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    flex-direction: column;
+    border: 4px solid rgb(21, 112, 92);
+    width: 95%;
+}
+
+.headi-h2 {
+    width: 20%;
+    height: 14%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form-cl {
+    border: 4px solid yellowgreen;
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp-lab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 20px;
+
+}
+
+input {
+    width: 200%;
+}
+
+.btn {
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border: 4px solid rgb(10, 181, 67);
+    border-radius: 50%;
+}
+
+li {
+    list-style: none;
+
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+/* #parent {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+} */
+
+/* .fetch-post {
+    border: 4px solid rgb(10, 181, 67);
+    width: 25%;
+    height: 25%;
+} */
+.list {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid black;
+    background-color: black;
+    color: white;
+    width: 50%;
+
+}
+
+.btn1 {
+    border: none;
+}
+
+.list1 {
+    width: 50%;
+}
+
+#comment {
+    display: flex;
+
+}
